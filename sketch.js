@@ -270,7 +270,7 @@ function draw() {
   }
 
   let start_color = color(173,255,47);
-  let end_color = color(255,165,0);
+  let end_color = start_color;
 
   if (!is_drawing) {
     path = [];
